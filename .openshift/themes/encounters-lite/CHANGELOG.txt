@@ -1,0 +1,129 @@
+Keep a change log to describe all the changes made to program source files. The purpose of this is so that people investigating bugs in the future will know about the changes that might have introduced the bug. Often a new bug can be found by looking at what was recently changed. More importantly, change logs can help you eliminate conceptual inconsistencies between different parts of a program, by giving you a history of how the conflicting concepts arose and who they came from.
+
+Copyright 2012-2013 StyledThemes.com
+
+	
+Changelog Legend:
+----
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+----
+(January 21, 2016) - Version 2.0.0
+
+[+] Sticky menu Added
+[!]	Thumbnail image in single post bug Fixed
+[!] Customizer console JavaScript error Fixed
+
+----
+
+(December 7, 2015) - Version 1.8.0
+[*] - removed wp_title() and added add_theme_support('title-tag')
+[!] - Fixed the bug of the header background 
+[!] - Fixed the bug of text domains in translations
+
+
+----
+
+(May 8, 2015) - Bug fix - Version 1.7.1
+[x] - encounters_content_nav functions bug fixed
+
+----
+
+(March 23, 2015) - Bug fix - Version 1.7
+[x] - Child Theme Package Deleted
+[!] - Widget Display Bug Fixed on Page Templates
+[!] - IE Compability Bug Fixed
+
+
+----
+
+(May 29, 2014) - Bug fix - Version 1.6.6
+[!] - Fixed the customizer for the colour selectors. The sanitize name was incorrect.
+
+----
+
+(May 22, 2014) - Adjustments - Version 1.6.5
+[!] - style.css text domain was not updated...now is shown as encounters-lite
+
+----
+
+(May 22, 2014) - Adjustments - Version 1.6.4
+[!] - Changed the commented out comments to show on all page templates (my mistake)
+[*] - Changed all text domains to be the proper "encounters-lite" name
+[*] - Changed all function names to have the proper naming... encounters_lite_
+[*] - Changed the full post view to include the featured image
+[+] - Added a setting to show or hide the featured image on the full post view
+[*] - Changed the editor styling to include the full theme's styleseet to give better visual layout
+[*] - Updated the language .pot file and renamed it to represent the correct theme name
+
+--- 
+
+(August 16, 2013) - Adjustments - Version 1.6.3
+[*] - Changed the site title font size to be smaller and using em instead of px sizing
+[+] - Added the ability to edit the copyright from the theme customizer
+[!] - Fixed the frontpage-right-column layout template because the sidebar was floating below content
+[*] - Updated the language .pot file
+
+----
+
+(July 25, 2013) - Adjustments - Version 1.6.2
+[+] - Added an installable child theme to the theme package in a folder called child-theme
+[*] - Updated the Readme.txt file
+
+----
+
+(June 11, 2013) - Adjustments - Version 1.6.1
+[*] - Changed the content.php to only show the featured image on intros and not in the full post view.
+
+----
+
+(June 3, 2013) - Adjustments - Version 1.6
+[*] - Adjusted the functions.php for the WordPress background 
+[*] - Adjusted the header.php title coding
+[x] - Removed a couple calls to css in the header.php
+
+----
+
+(May 18, 2013) - Fixed Bug - Version 1.5
+[!] - Fixed an error with single post navigation. File changed was the content.php 
+[*] - Updated the language .pot file
+
+----
+
+(May 22, 2013) - Bug Fix - Version 1.4
+[!] - Fixed a links on the social bar icons which had no height/width to them. The style.css was updated.
+[+] = Added _target to the social icon links. The footer.php file was updated.
+
+----
+
+(May 7, 2013) - Bug Fix - Version 1.3
+[!] - Fixed a problem of a blank page when visiting a category page. Files changed are category.php
+[+] - Added more List styles from the Encounters pro version. Changed the styles.css file.
+[+] - Added styling for the Recent Posts Plus plugin. Changed styles.css
+
+----
+
+(May 6, 2013) - Added Feature - Version 1.2
+[+] - Added boxed thumbnail images. Changed the style.css file.
+
+----
+
+(May 4, 2013) - Added Feature - Version 1.1
+[+] - Added missing link colour and hover colour from theme options
+[*] - Changed submenu background from gradient to solid colour to make customizing easier
+[*] - Changed header and bottom area background CSS3 gradient to a transparent image overlay
+[+] - Added a header background and bottom background colour option to the theme customizer
+[*] - Updated the language .pot file
+
+----
+
+(April 20, 2013) Version 1.0 Styled Themes <www.styledthemes.com>
+Initial Release
+
+----

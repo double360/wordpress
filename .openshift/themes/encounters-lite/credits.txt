@@ -1,0 +1,27 @@
+========= Credits & Plugins =============
+I would like to give thanks to the following sources which helped me put together this theme as
+well the demo site by showcasing the hard work from theme to plugins.
+
+
+CMS WordPress Platform: http://www.wordpress.org
+Demo Images: http://www.veer.com
+
+========= Optional Plugins ================
+These are plugins that I used in the demo website for this theme, but are not required
+to run this theme. They are considered optional, but recommended to help enhance your
+website experience.
+
+Advanced Text Widget: http://simplerealtytheme.com/plugins/atw-pro/
+Breadcrumb NavXT: http://mtekk.us/code/breadcrumb-navxt/
+Contact Form 7: http://contactform7.com/
+Dynamic Widgets: http://www.qurl.nl/dynamic-widgets/
+Simply Exclude: http://www.codehooligans.com/projects/wordpress/simply-exclude/
+TinyMC Advanced: http://www.laptoptips.ca/projects/tinymce-advanced/
+WP Google Fonts: http://adrian3.com/projects/wordpress-plugins/wordpress-google-fonts-plugin/
+Widgetkit Lite: http://www.yootheme.com/widgetkit/
+
+========= Code Snippets ================
+
+Functions code snippet for moving the more link outside of the intro:  http://nixgadgets.vacau.com/archives/134
+Functions code snippet for the descendent category method: Michal Ochman http://blog.scur.pl/
+Functions code snippet for the widget menu class modification: Marko Heijnen http://wpunknown.com/blog/

@@ -1,0 +1,101 @@
+/*
+Styles for older IE versions (previous to IE9).
+*/
+.main-navigation ul.nav-menu,
+.main-navigation div.nav-menu > ul {
+		display: inline-block !important;
+		text-align: right;
+		width: 100%;
+	}
+.main-navigation ul {
+	margin: 0;
+	text-indent: 0;
+}
+.main-navigation li a,
+.main-navigation li {
+	display: inline-block;
+	text-decoration: none;
+}
+.ie7 .main-navigation li a,
+.ie7 .main-navigation li {
+	display: inline;
+}
+.main-navigation li a {
+	border-bottom: 0;
+	line-height: 3.692307692;
+	white-space: nowrap;
+}
+.main-navigation li a:hover {
+	color: #bd7d78;
+}
+.main-navigation li {
+	margin: 0 23px 0 0;
+	margin: 0 1.438rem 0 0;
+	position: relative;
+	}
+.main-navigation li ul {
+	display: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+	right:-20px;  /* lets have the 2nd level a little to the right */
+	z-index: 9999; /* lets make the submenu float above sliders */
+}	
+.main-navigation li ul ul {
+	top: 0;
+	right: 90%; /* lets have the 3rd level overlap the 2nd */
+}
+
+.main-navigation ul li:hover > ul {
+	display: block;
+	background: #bf7b7b; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iIzdjYWJiMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1Mjc1NzkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #bf7b7b 1%, #934e49 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#bf7b7b), color-stop(100%,#934e49)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #bf7b7b 1%,#934e49 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #bf7b7b 1%,#934e49 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #bf7b7b 1%,#934e49 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #bf7b7b 1%,#934e49 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf7b7b', endColorstr='#934e49',GradientType=0 ); /* IE6-8 */
+	border-bottom:6px solid #36393c;
+	border-radius:12px;
+}
+.main-navigation li ul li a {
+	display: block;
+	font-size: 11px;
+	font-size: 0.785714286rem;
+	line-height: 12px;
+	line-height: 1.7;
+	padding: 4px 20px;
+		padding: 0.250rem 1.250rem;
+	width: 160px;
+	width: 10rem;
+	white-space: normal;
+}
+
+.main-navigation li ul li a:hover {
+	background: #bf7b7b;
+	color: #fff;
+}
+.main-navigation li ul li:first-child a:hover { /* make the hover background match the submenu top corners */
+	border-radius:12px 12px 0 0;
+}
+.main-navigation li ul li:last-child a:hover { /* make the hover background match the submenu bottom corners */
+	border-radius:0 0 12px 12px;
+}
+
+
+
+
+.main-navigation .current-menu-item > a,
+.main-navigation .current-menu-ancestor > a,
+.main-navigation .current_page_item > a,
+.main-navigation .current_page_ancestor > a {
+	color: #636363;
+	font-weight: bold;
+}
+.menu-toggle {
+	display: none;
+}

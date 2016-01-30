@@ -1,0 +1,8 @@
+/* CSS Document for the post editor */
+@import url( 'style.css' );
+
+body {
+	font-size: 13px;
+	max-width: 1170px;
+	background-color: #fff;
+}
